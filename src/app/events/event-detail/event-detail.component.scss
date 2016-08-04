@@ -1,0 +1,68 @@
+button {
+  text-transform: uppercase;
+}
+
+md-card-title-group img {
+  width: 70px;
+  height: 70px;
+}
+
+:host .description img {
+  max-width: 100%;
+}
+
+.event-content {
+  md-card {
+    margin-bottom: 16px;
+  }
+
+  .meta-info {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #acacac;
+  }
+
+  .registration-limit {
+    margin-right: 1.2em;
+  }
+
+  .description {
+    line-height: 1.3em;
+  }
+
+  .sessions {
+    .meta-info {
+      border-bottom: none;
+    }
+
+    h2 {
+      margin: 0;
+      padding: 24px;
+      font-weight: normal;
+      margin-bottom: 16px;
+      box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  .register-button {
+    display: flex;
+    justify-content: center;
+    button {
+      margin: 16px 0;
+      width: 50%;
+    }
+  }
+
+  .spinner {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .error {
+    width: 300px;
+    margin: 60px auto;
+    text-align: center;
+  }
+}
